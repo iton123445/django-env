@@ -1,0 +1,11 @@
+<form action="/your-name/" method="post">
+    <label for="firstname">First name: </label>
+    <input id="firstname" type="text" name="firstname" value="{{ students_list.firstname }}">
+    <label for="lastname">Last name: </label>
+    <input id="lastname" type="text" name="lastname" value="{{ students_list.lastname }}">
+    <label for="age">Age: </label>
+    <input id="age" type="number" name="age" value="{{ students_list.age }}">
+    <label for="course">Course: </label>
+    <input id="course" type="text" name="course" value="{{ students_list.course }}">
+    <input type="submit" value="OK">
+</form>
